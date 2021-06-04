@@ -72,4 +72,16 @@ For the folder 'VGG-SENN-MNIST', there are also mainly two ipynb files; one is f
      
    #### Evaluate
    * You evaluate the results on the trained models using the ipynb file named 'Analyze_Naive.ipynb'.
-   
+---------
+
+## Overall Code Structure
+
+There is a folder named 'SENN' in folder for experiments, which is mainly composed of 5 main .py files:
+
+  * aggregator.py - defined the Aggregation functions
+  * autoencoder.py - defines the functions that encode inputs into concepts
+  * theta_parametrizer.py - defines the functions that generate parameters from inputs (theta(x))
+  * discriminator.py - defines the critic function
+  * trainer.py - objectives, losses and training utilities for the Improved-SENN
+  * trainer_naive.py - objectives, losses and training utilities for the vanilla SENN
+  * analyzer.py - evaluation utilities
