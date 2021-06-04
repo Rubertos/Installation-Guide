@@ -9,14 +9,14 @@
 
 -----------------------
 
-## Data Downloads:
+## Data Downloads (Must be done at first)
   Since the pytorch built-in links for downloading the MNIST and the FashionsMNIST dataset are broken, you should download the dataset from the following link:
   
   https://drive.google.com/file/d/1FTF8auc3-TiwO0z3BNw-WDtshBvR0Q8U/view
   
-  Download the above .zip file and extract it, and then move the folders 'MNIST' and 'FMNIST' in the folder 'data'.
-  At the end, the correct directory would be 'data/MNIST' and 'data/FMNIST'.
-
+  Download the above .zip file and extract it. This .zip file contains two folders 'MNIST' and 'FMNIST'.
+  Move these two folders to the 'data' folder.
+  
 -----------------------
 ## Description
 
